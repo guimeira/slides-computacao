@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Apresenta\IeC {\c c}\IeC {\~a}o da disciplina}{2}{0}{1}
+\beamer@sectionintoc {2}{Introdu\IeC {\c c}\IeC {\~a}o}{5}{0}{2}
+\beamer@sectionintoc {3}{Hist\IeC {\'o}rico}{17}{0}{3}
+\beamer@sectionintoc {4}{Revis\IeC {\~a}o: hardware}{46}{0}{4}
+\beamer@sectionintoc {5}{Tipos de sistemas operacionais}{73}{0}{5}
+\beamer@sectionintoc {6}{Estrutura de um sistema operacional}{83}{0}{6}

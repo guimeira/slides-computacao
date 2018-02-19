@@ -1,0 +1,2 @@
+Digite um número: 10
+O dobro de 10 é 20

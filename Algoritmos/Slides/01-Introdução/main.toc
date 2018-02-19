@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Apresenta\IeC {\c c}\IeC {\~a}o da disciplina}{10}{0}{1}
+\beamer@sectionintoc {2}{Introdu\IeC {\c c}\IeC {\~a}o}{13}{0}{2}
+\beamer@sectionintoc {3}{Vari\IeC {\'a}veis}{38}{0}{3}
+\beamer@sectionintoc {4}{Opera\IeC {\c c}\IeC {\~o}es}{57}{0}{4}
+\beamer@sectionintoc {5}{Entrada de dados}{69}{0}{5}
+\beamer@sectionintoc {6}{Exerc\IeC {\'\i }cios}{73}{0}{6}

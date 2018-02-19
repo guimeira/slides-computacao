@@ -1,0 +1,4 @@
+Normal: 1.730000
+2 casas: 1.73
+Com zeros: 01.73
+Com espaços:  1.73

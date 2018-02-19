@@ -1,0 +1,1 @@
+printf("Alice disse:\n\t\"Hoje é 19\\02!\"\n");
