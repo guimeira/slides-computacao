@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  19 FEB 2018 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  23 FEB 2018 02:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1759,46 +1759,48 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 ) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(./turing.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/rsfso/rsfso.sty
+Package: rsfso 2013/11/02 v1.01 U/rsfso (Michael Sharpe)
+) (./turing.tex)
 runsystem(which pygmentize && touch main.aex)...executed.
 
 runsystem(rm main.aex)...executed.
 
- (./main.aux)
+
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Try loading font information for T1+Carlito-LF on input lin
-e 31.
+e 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/carlito/T1Carlito-LF.fd
 File: T1Carlito-LF.fd 2014/08/20 (autoinst) Font definitions for T1/Carlito-LF.
 
 )
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 31.
+(Font)              scaled to size 10.95pt on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1864,7 +1866,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring ON on input line 31.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1874,69 +1876,69 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./main.out) (./main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 31.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/Carlito-LF/m/n on input line 31.
+(Font)                  OT1/cmss/m/n --> OT1/Carlito-LF/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/Carlito-LF/bx/n on input line 31.
+(Font)                  OT1/cmss/bx/n --> OT1/Carlito-LF/bx/n on input line 32.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/Carlito-LF/m/n --> T1/lmr/m/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
+(Font)                  OT1/Carlito-LF/m/n --> T1/lmr/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/Carlito-LF/bx/n on input line 31.
+(Font)                  OT1/lmr/bx/n --> T1/Carlito-LF/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/Carlito-LF/bx/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
+(Font)                  OT1/lmr/bx/n --> T1/Carlito-LF/bx/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/Carlito-LF/m/n on input line 31.
+(Font)                  OT1/lmss/m/n --> T1/Carlito-LF/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/Carlito-LF/m/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
+(Font)                  OT1/lmss/bx/n --> T1/Carlito-LF/m/n on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/Carlito-LF/m/it on input line 31.
+(Font)                  OT1/lmr/m/it --> T1/Carlito-LF/m/it on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/Carlito-LF/m/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
+(Font)                  OT1/lmr/bx/it --> T1/Carlito-LF/m/it on input line 32.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/lmtt/m/n --> T1/DejaVuSansMono-TLF/m/n on input lin
-e 31.
+e 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/lmtt/m/n --> T1/DejaVuSansMono-TLF/m/n on input lin
-e 31.
+e 32.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  T1/Carlito-LF/m/n --> T1/Carlito-LF/bx/n on input line 
-31.
+32.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/Carlito-LF/m/it --> T1/Carlito-LF/bx/it on input lin
-e 31.
+e 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/Carlito-LF/bx/n --> T1/lmr/bx/n on input line 31.
+(Font)                  OT1/Carlito-LF/bx/n --> T1/lmr/bx/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  T1/Carlito-LF/bx/n --> T1/Carlito-LF/bx/n on input line
- 31.
+ 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/Carlito-LF/m/n --> T1/Carlito-LF/bx/n on input line 
-31.
+32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/Carlito-LF/m/it --> T1/Carlito-LF/bx/it on input lin
-e 31.
+e 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/DejaVuSansMono-TLF/m/n --> T1/DejaVuSansMono-TLF/bx/
-n on input line 31.
+n on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1962,8 +1964,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 31.
-LaTeX Info: Redefining \microtypecontext on input line 31.
+LaTeX Info: Redefining \includegraphics on input line 32.
+LaTeX Info: Redefining \microtypecontext on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1980,48 +1982,48 @@ Package microtype Info: Loading generic settings for font family
 \c@mv@tabular=\count287
 \c@mv@boldtabular=\count288
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/Carlito-LF/m/n --> OT1/zavm/m/n on input line 31.
+(Font)                  OT1/Carlito-LF/m/n --> OT1/zavm/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/lmm/m/it --> OML/zavm/m/it on input line 31.
+(Font)                  OML/lmm/m/it --> OML/zavm/m/it on input line 32.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> OMS/zavm/m/n on input line 31.
+(Font)                  OMS/lmsy/m/n --> OMS/zavm/m/n on input line 32.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> OMX/iwona/m/n on input line 31.
+(Font)                  OMX/lmex/m/n --> OMX/iwona/m/n on input line 32.
 \c@lstlisting=\count289
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 31.
+LaTeX Info: Redefining \selectfont on input line 32.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./main.nav)
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 31.
+(Font)              scaled to size 6.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 17.28pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <17.28> not availab
 le
 (Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-32.
+33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 17.28pt on input line 33.
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 32--32
+Overfull \hbox (2.0pt too wide) in paragraph at lines 33--33
 [][]  
  []
 
 LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <10.95> not availab
 le
 (Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-32.
+33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 32.
+(Font)              scaled to size 10.95pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <14.4> not availabl
 e
 (Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-32.
+33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+zavm on input line 32.
+(Font)              scaled to size 14.4pt on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+zavm on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
@@ -2049,24 +2051,24 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `OT1/zavm/m/n/7'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 12.24008pt on input line 32.
+(Font)              scaled to size 12.24008pt on input line 33.
 <<oml.cmap>>
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 8.50006pt on input line 32.
+(Font)              scaled to size 8.50006pt on input line 33.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 5.95004pt on input line 32.
-LaTeX Font Info:    Try loading font information for OMS+zavm on input line 32.
+(Font)              scaled to size 5.95004pt on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+zavm on input line 33.
 
  (/usr/share/texlive/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+iwona on input line 32
+LaTeX Font Info:    Try loading font information for OMX+iwona on input line 33
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/iwona/omxiwona.fd
 File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
 )<<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2074,7 +2076,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2083,22 +2085,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 32.
+(Font)              scaled to size 10.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 32.
+(Font)              scaled to size 7.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 32.
+(Font)              scaled to size 14.4pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 32.
+(Font)              scaled to size 10.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 32.
+(Font)              scaled to size 7.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <12> not available
 (Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-32.
+33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 33.
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `OT1/zavm/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2118,23 +2120,23 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `OT1/zavm/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 10.20007pt on input line 32.
+(Font)              scaled to size 10.20007pt on input line 33.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 6.80005pt on input line 32.
+(Font)              scaled to size 6.80005pt on input line 33.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 5.10004pt on input line 32.
+(Font)              scaled to size 5.10004pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 32.
+(Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 32.
+(Font)              scaled to size 6.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 32.
+(Font)              scaled to size 4.0pt on input line 33.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc) [2
@@ -2147,23 +2149,23 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `OT1/zavm/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 4.25003pt on input line 61.
+(Font)              scaled to size 4.25003pt on input line 62.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 61.
+(Font)              scaled to size 5.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 61.
+(Font)              scaled to size 5.0pt on input line 62.
  [3
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+Carlito-LF on input li
-ne 77.
+ne 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/carlito/TS1Carlito-LF.fd
 File: TS1Carlito-LF.fd 2014/08/20 (autoinst) Font definitions for TS1/Carlito-L
 F.
 )
 LaTeX Font Info:    Font shape `TS1/Carlito-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 77.
+(Font)              scaled to size 10.95pt on input line 78.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `Carlito-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2177,7 +2179,7 @@ Package microtype Info: Loading generic settings for font family
 File: resources/chico.png Graphic file (type png)
 
 <use resources/chico.png>
-Package pdftex.def Info: resources/chico.png used on input line 86.
+Package pdftex.def Info: resources/chico.png used on input line 87.
 (pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
  [6
 
@@ -2185,7 +2187,7 @@ Package pdftex.def Info: resources/chico.png used on input line 86.
 File: resources/chico.png Graphic file (type png)
 
 <use resources/chico.png>
-Package pdftex.def Info: resources/chico.png used on input line 86.
+Package pdftex.def Info: resources/chico.png used on input line 87.
 (pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
  [7
 
@@ -2197,18 +2199,18 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `OT1/zavm/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 9.30756pt on input line 109.
+(Font)              scaled to size 9.30756pt on input line 110.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 109.
+(Font)              scaled to size 10.95pt on input line 110.
 LaTeX Font Info:    Try loading font information for T1+DejaVuSansMono-TLF on i
-nput line 109.
+nput line 110.
 
 (/usr/share/texlive/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono-TLF.fd
 File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
 -TLF.
 )
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 109.
+(Font)              scaled to size 9.30756pt on input line 110.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `DejaVuSansMono-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2226,7 +2228,7 @@ Package microtype Info: Loading generic settings for font family
 File: resources/chico2.png Graphic file (type png)
 
 <use resources/chico2.png>
-Package pdftex.def Info: resources/chico2.png used on input line 114.
+Package pdftex.def Info: resources/chico2.png used on input line 115.
 (pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
  [12
 
@@ -2259,14 +2261,14 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/b/n' will be
 File: resources/bigo.png Graphic file (type png)
 
 <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 140.
+Package pdftex.def Info: resources/bigo.png used on input line 141.
 (pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
  [15
 
  <./resources/bigo.png>]
 File: resources/bigo.png Graphic file (type png)
  <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 140.
+Package pdftex.def Info: resources/bigo.png used on input line 141.
 (pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
 
 [16
@@ -2274,23 +2276,23 @@ Package pdftex.def Info: resources/bigo.png used on input line 140.
 ]
 File: resources/bigo.png Graphic file (type png)
  <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 150.
+Package pdftex.def Info: resources/bigo.png used on input line 151.
 (pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
  [17
 
 ]
 File: resources/bigo.png Graphic file (type png)
  <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 150.
+Package pdftex.def Info: resources/bigo.png used on input line 151.
 (pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
  [18
 
 ]
 LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <10> not available
 (Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-161.
+162.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 161.
+(Font)              scaled to size 10.0pt on input line 162.
  [19
 
 ]
@@ -2303,27 +2305,34 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
 File: resources/alanturing.jpg Graphic file (type jpg)
 
 <use resources/alanturing.jpg>
-Package pdftex.def Info: resources/alanturing.jpg used on input line 183.
+Package pdftex.def Info: resources/alanturing.jpg used on input line 184.
 (pdftex.def)             Requested size: 72.83795pt x 90.90298pt.
 
 <resources/enigma.jpg, id=197, 642.4pt x 361.35pt>
 File: resources/enigma.jpg Graphic file (type jpg)
  <use resources/enigma.jpg>
-Package pdftex.def Info: resources/enigma.jpg used on input line 183.
+Package pdftex.def Info: resources/enigma.jpg used on input line 184.
 (pdftex.def)             Requested size: 145.67592pt x 81.93983pt.
 
 [22
 
- <./resources/alanturing.jpg> <./resources/enigma.jpg>] [23
+ <./resources/alanturing.jpg> <./resources/enigma.jpg>]
+<resources/turingtest.jpg, id=203, 792.9625pt x 421.575pt>
+File: resources/turingtest.jpg Graphic file (type jpg)
 
-] [24
+<use resources/turingtest.jpg>
+Package pdftex.def Info: resources/turingtest.jpg used on input line 194.
+(pdftex.def)             Requested size: 182.09767pt x 96.81226pt.
+ [23
+
+ <./resources/turingtest.jpg>] [24
 
 ]
-<resources/turing-doodle.jpg, id=213, 632.3625pt x 421.575pt>
+<resources/turing-doodle.jpg, id=214, 632.3625pt x 421.575pt>
 File: resources/turing-doodle.jpg Graphic file (type jpg)
 
 <use resources/turing-doodle.jpg>
-Package pdftex.def Info: resources/turing-doodle.jpg used on input line 210.
+Package pdftex.def Info: resources/turing-doodle.jpg used on input line 213.
 (pdftex.def)             Requested size: 145.67592pt x 97.1146pt.
  [25
 
@@ -2344,14 +2353,14 @@ Missing character: There is no ; in font nullfont!
 \spot@box@vii=\box99
  [28
 
-] <resources/wat.jpg, id=237, 606.265pt x 405.515pt>
+] <resources/wat.jpg, id=238, 606.265pt x 405.515pt>
 File: resources/wat.jpg Graphic file (type jpg)
 
 <use resources/wat.jpg>
-Package pdftex.def Info: resources/wat.jpg used on input line 296.
+Package pdftex.def Info: resources/wat.jpg used on input line 299.
 (pdftex.def)             Requested size: 182.09767pt x 121.79774pt.
 
-Overfull \vbox (12.66905pt too high) detected at line 296
+Overfull \vbox (12.66905pt too high) detected at line 299
  []
 
 [29
@@ -2461,18 +2470,18 @@ Missing character: There is no ; in font nullfont!
 ] [59
 
 ]
-<resources/wat2.jpg, id=414, 1661.20625pt x 1083.04625pt>
+<resources/wat2.jpg, id=415, 1661.20625pt x 1083.04625pt>
 File: resources/wat2.jpg Graphic file (type jpg)
 
 <use resources/wat2.jpg>
-Package pdftex.def Info: resources/wat2.jpg used on input line 387.
+Package pdftex.def Info: resources/wat2.jpg used on input line 390.
 (pdftex.def)             Requested size: 291.35739pt x 189.94908pt.
  [60
 
  <./resources/wat2.jpg>]
 File: resources/wat2.jpg Graphic file (type jpg)
  <use resources/wat2.jpg>
-Package pdftex.def Info: resources/wat2.jpg used on input line 387.
+Package pdftex.def Info: resources/wat2.jpg used on input line 390.
 (pdftex.def)             Requested size: 291.35739pt x 189.94908pt.
 
 [61
@@ -2566,25 +2575,25 @@ Missing character: There is no ; in font nullfont!
 
 ] [99
 
-]
-Overfull \vbox (7.90315pt too high) detected at line 635
- []
-
-[100
+] [100
 
 ]
-Overfull \vbox (7.90315pt too high) detected at line 635
+Overfull \vbox (7.90315pt too high) detected at line 640
  []
 
 [101
 
 ]
-Overfull \vbox (7.90315pt too high) detected at line 635
+Overfull \vbox (7.90315pt too high) detected at line 640
  []
 
 [102
 
-] [103
+]
+Overfull \vbox (7.90315pt too high) detected at line 640
+ []
+
+[103
 
 ] [104
 
@@ -2598,30 +2607,22 @@ Overfull \vbox (7.90315pt too high) detected at line 635
 
 ] [109
 
-]
-Missing character: There is no ; in font nullfont!
- [110
+] [110
+
+] [111
+
+] [112
+
+] [113
 
 ]
 Missing character: There is no ; in font nullfont!
- [111
-
-]
-Missing character: There is no ; in font nullfont!
- [112
-
-]
-Missing character: There is no ; in font nullfont!
- [113
+ [114
 
 ]
 Missing character: There is no ; in font nullfont!
 
-[114
-
-]
-Missing character: There is no ; in font nullfont!
- [115
+[115
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2665,12 +2666,12 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
-
-[126
+ [126
 
 ]
 Missing character: There is no ; in font nullfont!
- [127
+
+[127
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2684,13 +2685,21 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [130
 
-] [131
+]
+Missing character: There is no ; in font nullfont!
+ [131
 
-] [132
+]
+Missing character: There is no ; in font nullfont!
+ [132
 
-] [133
+]
+Missing character: There is no ; in font nullfont!
+ [133
 
-] [134
+]
+Missing character: There is no ; in font nullfont!
+ [134
 
 ] [135
 
@@ -2698,117 +2707,97 @@ Missing character: There is no ; in font nullfont!
 
 ] [137
 
-]
-[138
+] [138
 
 ]
-Overfull \hbox (15.71953pt too wide) in paragraph at lines 745--745
- [] 
- []
-
 [139
 
-]
-Overfull \hbox (22.32643pt too wide) in paragraph at lines 745--745
- [] 
- []
+] [140
 
-[140
+] [141
 
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
- [] 
- []
-
-[141
+] [142
 
 ]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
- [] 
- []
-
-[142
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
+Overfull \hbox (15.71953pt too wide) in paragraph at lines 750--750
  [] 
  []
 
 [143
 
 ]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
+Overfull \hbox (22.32643pt too wide) in paragraph at lines 750--750
  [] 
  []
 
 [144
 
 ]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
  [] 
  []
 
 [145
 
 ]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 745--745
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
  [] 
  []
 
 [146
 
-] [147
+]
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
+ [] 
+ []
 
-] [148
+[147
 
-] [149
+]
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
+ [] 
+ []
 
-] [150
+[148
+
+]
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
+ [] 
+ []
+
+[149
+
+]
+Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
+ [] 
+ []
+
+[150
 
 ] [151
 
 ] [152
 
-]
-Missing character: There is no ; in font nullfont!
- [153
+] [153
+
+] [154
+
+] [155
+
+] [156
+
+] [157
+
+] [158
+
+] [159
+
+] [160
+
+] [161
 
 ]
-Missing character: There is no ; in font nullfont!
- [154
-
-]
-Missing character: There is no ; in font nullfont!
- [155
-
-]
-Missing character: There is no ; in font nullfont!
- [156
-
-]
-Missing character: There is no ; in font nullfont!
- [157
-
-]
-Missing character: There is no ; in font nullfont!
-
-[158
-
-]
-Missing character: There is no ; in font nullfont!
- [159
-
-]
-Missing character: There is no ; in font nullfont!
- [160
-
-]
-Missing character: There is no ; in font nullfont!
- [161
-
-]
-Missing character: There is no ; in font nullfont!
- [162
+[162
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2840,8 +2829,7 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
-
-[170
+ [170
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2857,7 +2845,8 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
- [174
+
+[174
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2889,8 +2878,7 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
-
-[182
+ [182
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2906,7 +2894,8 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
- [186
+
+[186
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2938,8 +2927,7 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
-
-[194
+ [194
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2955,7 +2943,8 @@ Missing character: There is no ; in font nullfont!
 
 ]
 Missing character: There is no ; in font nullfont!
- [198
+
+[198
 
 ]
 Missing character: There is no ; in font nullfont!
@@ -2982,21 +2971,48 @@ Missing character: There is no ; in font nullfont!
  [204
 
 ]
-Overfull \hbox (9.26645pt too wide) detected at line 880
-\T1/Carlito-LF/m/it/10.95 E \OT1/zavm/m/n/10.95 = \OMS/zavm/m/n/10.95 f\OT1/zav
-m/m/n/10.95 #\T1/Carlito-LF/m/it/10.95 x[]\OT1/zavm/m/n/10.95 #\T1/Carlito-LF/m
-/it/10.95 x[]\OT1/zavm/m/n/10.95 # [] #\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/
-m/n/10.95 j []\T1/Carlito-LF/m/it/10.95 x[]  \OMS/zavm/m/n/10.95 2  f\T1/Carlit
-o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
-10.95 g[][]\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.
-95 = \T1/Carlito-LF/m/it/10.95 x[][]i \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.95 
-= \T1/Carlito-LF/m/it/10.95 j\OMS/zavm/m/n/10.95 g
- []
-
-[205
+Missing character: There is no ; in font nullfont!
+ [205
 
 ]
-Overfull \hbox (9.26645pt too wide) detected at line 880
+Missing character: There is no ; in font nullfont!
+ [206
+
+]
+Missing character: There is no ; in font nullfont!
+ [207
+
+]
+Missing character: There is no ; in font nullfont!
+ [208
+
+]
+Missing character: There is no ; in font nullfont!
+ [209
+
+]
+Missing character: There is no ; in font nullfont!
+
+[210
+
+]
+Missing character: There is no ; in font nullfont!
+ [211
+
+]
+Missing character: There is no ; in font nullfont!
+ [212
+
+]
+Missing character: There is no ; in font nullfont!
+ [213
+
+]
+Missing character: There is no ; in font nullfont!
+ [214
+
+]
+Overfull \hbox (9.26645pt too wide) detected at line 885
 \T1/Carlito-LF/m/it/10.95 E \OT1/zavm/m/n/10.95 = \OMS/zavm/m/n/10.95 f\OT1/zav
 m/m/n/10.95 #\T1/Carlito-LF/m/it/10.95 x[]\OT1/zavm/m/n/10.95 #\T1/Carlito-LF/m
 /it/10.95 x[]\OT1/zavm/m/n/10.95 # [] #\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/
@@ -3007,11 +3023,143 @@ o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
 = \T1/Carlito-LF/m/it/10.95 j\OMS/zavm/m/n/10.95 g
  []
 
-[206
+[215
 
-] [207
+]
+Overfull \hbox (9.26645pt too wide) detected at line 885
+\T1/Carlito-LF/m/it/10.95 E \OT1/zavm/m/n/10.95 = \OMS/zavm/m/n/10.95 f\OT1/zav
+m/m/n/10.95 #\T1/Carlito-LF/m/it/10.95 x[]\OT1/zavm/m/n/10.95 #\T1/Carlito-LF/m
+/it/10.95 x[]\OT1/zavm/m/n/10.95 # [] #\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/
+m/n/10.95 j []\T1/Carlito-LF/m/it/10.95 x[]  \OMS/zavm/m/n/10.95 2  f\T1/Carlit
+o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
+10.95 g[][]\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.
+95 = \T1/Carlito-LF/m/it/10.95 x[][]i \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.95 
+= \T1/Carlito-LF/m/it/10.95 j\OMS/zavm/m/n/10.95 g
+ []
 
-] [208
+[216
+
+] [217
+
+] [218
+
+] [219
+
+] [220
+
+] [221
+
+] [222
+
+] [223
+
+] [224
+
+]
+<resources/multitape.png, id=1277, 996.72375pt x 442.65375pt>
+File: resources/multitape.png Graphic file (type png)
+
+<use resources/multitape.png>
+Package pdftex.def Info: resources/multitape.png used on input line 958.
+(pdftex.def)             Requested size: 327.77359pt x 145.56285pt.
+
+Overfull \hbox (27.59685pt too wide) in paragraph at lines 958--958
+ [] 
+ []
+
+[225
+
+ <./resources/multitape.png>]
+Overfull \vbox (3.15312pt too high) detected at line 970
+ []
+
+[226
+
+]
+LaTeX Font Info:    Try loading font information for U+rsfso on input line 984.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/rsfso/ursfso.fd
+File: ursfso.fd 2011/02/13 Fontinst v1.933 font definitions for U/rsfso.
+)
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 10.95pt on input line 984.
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 8.0pt on input line 984.
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 6.0pt on input line 984.
+ [227
+
+] [228
+
+]
+[229
+
+] [230
+
+] [231
+
+]
+<resources/nondeterministic.png, id=1317, 357.58594pt x 211.54031pt>
+File: resources/nondeterministic.png Graphic file (type png)
+
+<use resources/nondeterministic.png>
+Package pdftex.def Info: resources/nondeterministic.png used on input line 1019
+.
+(pdftex.def)             Requested size: 218.51942pt x 129.27179pt.
+ [232
+
+ <./resources/nondeterministic.png>]
+<resources/bfs-dfs.png, id=1324, 2226.3175pt x 927.465pt>
+File: resources/bfs-dfs.png Graphic file (type png)
+
+<use resources/bfs-dfs.png>
+Package pdftex.def Info: resources/bfs-dfs.png used on input line 1027.
+(pdftex.def)             Requested size: 291.35739pt x 121.36719pt.
+ [233
+
+ <./resources/bfs-dfs.png>]
+File: resources/bfs-dfs.png Graphic file (type png)
+
+<use resources/bfs-dfs.png>
+Package pdftex.def Info: resources/bfs-dfs.png used on input line 1027.
+(pdftex.def)             Requested size: 291.35739pt x 121.36719pt.
+ [234
+
+]
+<resources/multitape-nondet.png, id=1336, 1032.85875pt x 319.1925pt>
+File: resources/multitape-nondet.png Graphic file (type png)
+
+<use resources/multitape-nondet.png>
+Package pdftex.def Info: resources/multitape-nondet.png used on input line 1034
+.
+(pdftex.def)             Requested size: 291.35739pt x 90.04054pt.
+ [235
+
+ <./resources/multitape-nondet.png>]
+[236
+
+] <resources/tree.png, id=1348, 637.582pt x 404.712pt>
+File: resources/tree.png Graphic file (type png)
+
+<use resources/tree.png>
+Package pdftex.def Info: resources/tree.png used on input line 1049.
+(pdftex.def)             Requested size: 182.09767pt x 115.58496pt.
+ [237
+
+ <./resources/tree.png>] [238
+
+] [239
+
+] [240
+
+]
+(./_minted-main/5FCB376F24A71F12F333B07B4000651FD4369FB2EF5ABB5A1F7E30B6E16C5CE
+7.pygtex)
+(./_minted-main/F87069560B0BF0957E1331530888322BCC4F3E1F3852C84A2BB26A6C1B06057
+2.pygtex
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/it' will be
+(Font)              scaled to size 9.30756pt on input line 2.
+) [241
 
 ]
 \tf@nav=\write9
@@ -3023,26 +3171,27 @@ o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
 \tf@snm=\write11
 \openout11 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1085.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1085.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1085.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1085.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33996679D4FA7EDDFC2F9908C9183A5C;186.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1085.
  ) 
 Here is how much of TeX's memory you used:
- 36257 strings out of 494910
- 691138 string characters out of 6179836
- 852653 words of memory out of 5000000
- 38138 multiletter control sequences out of 15000+600000
- 218080 words of font info for 185 fonts, out of 8000000 for 9000
+ 36470 strings out of 494910
+ 695077 string characters out of 6179836
+ 853944 words of memory out of 5000000
+ 38238 multiletter control sequences out of 15000+600000
+ 222813 words of font info for 205 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  70i,15n,100p,957b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc}{/usr/share/texlive/texmf-dis
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/share/te
+xlive/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-dis
 t/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
 vips/carlito/crlt_llspvt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/are
 v/arevoml.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_csjzg
@@ -3052,15 +3201,17 @@ usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Italic.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono-Bold.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (208 pages, 2705148 bytes).
+re/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono-Oblique.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (241 pages, 2947786 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 1052 compressed objects within 11 object streams
- 420 named destinations out of 1000 (max. 500000)
- 40737 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1541 PDF objects out of 1728 (max. 8388607)
+ 1214 compressed objects within 13 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 41285 words of extra memory for PDF output out of 42996 (max. 10000000)
 

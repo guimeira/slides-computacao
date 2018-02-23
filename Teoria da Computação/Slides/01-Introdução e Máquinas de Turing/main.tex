@@ -24,6 +24,7 @@
 \usepackage{spot}
 \usepackage{cancel}
 \usepackage{amsmath}
+\usepackage[scr]{rsfso}
 \input{turing.tex}
 \definecolor{highlightcolor}{RGB}{255, 140, 119}
 \setminted{highlightcolor=highlightcolor}
@@ -184,10 +185,12 @@
 \begin{frame}{Máquinas de Turing}
 	\framesubtitle{Alan Turing (1912-1954)}
 	\begin{itemize}
-		\item Após a guerra, trabalhou no desenvolvimento de um dos primeiros computadores com programa armazenado
-		\item Se interessou, também, por biologia matemática, prevendo reações químicas que só seriam observadas anos depois
 		\item Propôs o \alert{Teste de Turing}, para determinar se uma máquina é inteligente
+		\item Se interessou, também, por biologia matemática, prevendo reações químicas que só seriam observadas anos depois
 	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.5\paperwidth]{resources/turingtest}
+	\end{figure}
 \end{frame}
 \begin{frame}{Máquinas de Turing}
 	\framesubtitle{Alan Turing (1912-1954)}
@@ -372,7 +375,7 @@
 			\item $Q$ é o conjunto de estados
 			\item $\Sigma$ é o alfabeto de entrada, não incluindo o símbolo vazio $\sqcup$
 			\item $\Gamma$ é o alfabeto da fita, onde $\sqcup \in \Gamma$ e $\Sigma \subseteq \Gamma$
-			\item $\delta: Q \times \Gamma \to Q \times \Gamma \times \{L,R\}$ é a função de transição
+			\item $\delta: Q \times \Gamma \to Q \times \Gamma \times \{D,E\}$ é a função de transição
 			\item $q_{0} \in Q$ é o estado inicial
 			\item $q_{aceita} \in Q$ é o estado aceita
 			\item $q_{rejeita} \in Q$ é o estado rejeita, onde $q_{aceita} \ne q_{rejeita}$
@@ -395,7 +398,7 @@
 		\renewcommand{\TuringLeftEnd} {}
 		\TuringMachine
 	\end{center}
-	Se a Máquina pode estar nos estados $q_{0}$, $q{1}$ e $q_{2}$, então:
+	Se a Máquina pode estar nos estados $q_{0}$, $q_{1}$ e $q_{2}$, então:
 	\begin{equation*}
 		Q = \{q_{0}, q_{1}, q_{2}\}
 	\end{equation*}
@@ -595,6 +598,8 @@
 		\item Vá para o estágio 1''
 	\end{enumerate}
 	\pause
+	Como voltar para o início da fita?
+	\pause
 	Vamos começar definindo $\delta$. As outras partes da descrição ficam fáceis depois.
 \end{frame}
 \begin{frame}{Máquinas de Turing}
@@ -640,9 +645,9 @@
 	Ainda faltam as 6 outras partes da definição da Máquina!
 	
 	\begin{itemize}
-		\item $Q = \{q_{1}, q_{2}, q_{3}, q_{4}, q_{5}, q_{aceita}, q_{rejeita}\}$\pause
-		\item $\Sigma = \{0\}$\pause
-		\item $\Gamma = \{0, x, \sqcup\}$\pause
+		\item $Q = \pause\{q_{1}, q_{2}, q_{3}, q_{4}, q_{5}, q_{aceita}, q_{rejeita}\}$\pause
+		\item $\Sigma = \pause\{0\}$\pause
+		\item $\Gamma = \pause\{0, x, \sqcup\}$\pause
 		\item $q_{1}$ é o estado inicial\pause
 		\item $q_{aceita}$ é o estado aceita\pause
 		\item $q_{rejeita}$ é o estado rejeita
@@ -748,9 +753,9 @@
 	
 	Com a definição do $\delta$, o restante da definição é simples:
 	\begin{itemize}
-		\item $Q = \{q_{1}, q_{2}, q_{3}, q_{4}, q_{5}, q_{6}, q_{7}, q_{8}, q_{aceita}, q_{rejeita}\}$
-		\item $\Sigma = \{0, 1, \#\}$
-		\item $\Gamma = \{0, 1, \#, x, \sqcup\}$
+		\item $Q = \pause\{q_{1}, q_{2}, q_{3}, q_{4}, q_{5}, q_{6}, q_{7}, q_{8}, q_{aceita}, q_{rejeita}\}$\pause
+		\item $\Sigma = \pause\{0, 1, \#\}$\pause
+		\item $\Gamma = \pause\{0, 1, \#, x, \sqcup\}$\pause
 		\item $q_{1}$ é o estado inicial
 		\item $q_{aceita}$ é o estado aceita
 		\item $q_{rejeita}$ é o estado rejeita
@@ -765,7 +770,7 @@
 	\pause
 	Exemplos de palavras dessa linguagem:
 	\begin{itemize}
-		\item \textbf{$i = 1$, $j = 3$, $k - 3$:} abbcc
+		\item \textbf{$i = 1$, $j = 3$, $k = 3$:} abbccc
 		\item \textbf{$i = 3$, $j = 2$, $k = 6$:} aaabbcccccc
 		\item \textbf{$i = 4$, $j = 3$, $k = 12$:} aaaabbbcccccccccccc
 	\end{itemize}
@@ -897,6 +902,184 @@
 		\item \#11\textcolor{red}{\#0001}\textcolor{blue}{\#10101}\#010
 		\item \#11\textcolor{red}{\#0001}\#10101\textcolor{blue}{\#010}
 		\item \#11\#0001\textcolor{red}{\#10101}\textcolor{blue}{\#010}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Considere uma variante da Máquina de Turing que, além de poder mover a cabeça de leitura e escrita para a direita e para a esquerda, também possa mantê-la na mesma posição.
+	
+	Em outras palavras, a função de transição tem a forma:
+	\begin{equation*}
+		\delta: Q \times \Gamma \rightarrow Q \times \Gamma \times \{E,D,P\}
+	\end{equation*}
+	Essa máquina é mais poderosa que a Máquina de Turing tradicional? Isto é, ela consegue reconhecer linguagens que a máquina tradicional não consegue?
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	\textbf{Não}. Essa variante pode ser \alert{simulada} pela Máquina de Turing tradicional. Para isso, convertemos cada transição na qual a cabeça de leitura fica parada em duas transições da Máquina de Turing trandicional, uma movendo a cabeça para a esquerda e outra para a direita.
+	
+	Utilizaremos essa técnica para provar que outras variantes são equivalentes à Máquina de Turing original. Se a variante pode ser simulada pela original, ela não é mais poderosa que a original.
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Considere uma \textbf{Máquina de Turing de múltiplas fitas}. Cada uma das fitas tem sua própria cabeça de leitura e escrita. Inicialmente, a entrada está na fita 1 e as demais fitas estão em branco. A função de transição é:
+	\begin{equation*}
+		\delta: Q \times \Gamma^{k} \rightarrow Q \times \Gamma^{k} \times \{E,D,P\}^{k}
+	\end{equation*}
+	onde $k$ é o número de fitas. A expressão:
+	\begin{equation*}
+		\delta(q_{i}, a_{1}, \cdots, a_{k}) = (q_{j}, b_{1}, \cdots, b_{k}, E, D, \cdots, E)
+	\end{equation*}
+	significa que se a máquina está no estado $q_{i}$ e as cabeças de 1 a $k$ leem os símbolos $a_{1}$ a $a_{k}$, a máquina vai para o estado $q_{j}$, escreve os símbolos $b_{1}$ a $b_{k}$ e move as cabeças nas direções indicadas ou as mantém paradas.
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Essa variante é mais poderosa que a Máquina de Turing original? \pause
+	\begin{block}{Teorema}
+		Toda Máquina de Turing com múltiplas fitas tem uma Máquina de Turing de uma fita equivalente.
+	\end{block}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Para simular a Máquina de Turing de múltiplas fitas, precisamos:
+	\begin{itemize}
+		\item Simular o conteúdo das múltiplas fitas
+		\item Simular as múltiplas cabeças de leitura e escrita
+	\end{itemize}
+	Podemos armazenar o conteúdo das múltiplas fitas na Máquina de Turing original utilizando um separador (por exemplo, \#).
+	
+	Para representar as múltiplas cabeças, adicionamos caracteres ``marcados'' ao alfabeto da fita. Esses caracteres indicam a posição de cada uma das cabeças virtuais.
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	\begin{figure}
+		\includegraphics[width=0.9\paperwidth]{resources/multitape}
+	\end{figure}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	$S = $``Para uma string de entrada $w = w_{1}, w_{2}, \cdots, w_{n}$:
+	\begin{enumerate}
+		\item Coloque a fita num formato que represente todas as $k$ fitas de $M$:
+		\begin{equation*}
+			\#\overset{\bullet}{w_{1}} w_{2} \cdots w_{n}\#\overset{\bullet}{\sqcup}\#\overset{\bullet}{\sqcup}\#\cdots\#
+		\end{equation*}
+		\item Para simular cada movimento, escaneie a fita da esquerda para a direita para determinar os símbolos que estão sob as cabeças virtuais. Então, faça uma segunda passagem para atualizar as fitas de acordo com a função de transição de $M$
+		\item Se, em algum momento, $S$ mover uma das cabeças virtuais para cima de um \#, significa que $M$ moveu a cabeça correspondente para uma porção não lida da fita. Então, $S$ escreve um símbolo vazio nessa posição da fita e desloca todo o restante do conteúdo para a direita.
+	\end{enumerate}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Uma \textbf{Máquina de Turing não-determinística} é capaz de estar em mais de uma configuração ao mesmo tempo. A função de transição tem a forma:
+	\begin{equation*}
+		\delta: Q \times \Gamma \rightarrow \spot<2->{\mathscr{P}}(Q \times \Gamma \times \{E,D\})
+	\end{equation*}
+	\only<2-> {
+		$\mathscr{P}(a)$ representa o \textbf{conjunto potência}, isto é, o conjunto de todos os subconjuntos de $a$:
+		\begin{equation*}
+			\mathscr{P}(\{x,y\}) = \{\{\}, \{x\}, \{y\}, \{x,y\}\}
+		\end{equation*}
+		Em outras palavras, nossa função de transição agora retorna um \textbf{conjunto} de próximos estados.
+	}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\begin{center}
+		\scalebox{0.9}{
+			\begin{tikzpicture}[node distance=3cm, on grid, auto, initial text=, initial left]
+			\coordinate (cq1) at (0,0);
+			\coordinate [below right=of cq1] (cq2);
+			\coordinate [right=of cq1] (cq3);
+			\coordinate [above right=of cq1] (cq4);
+			
+			\node[state,initial] (q1) at (cq1) {$q_1$};
+			\node[state] (q2) at (cq2) {$q_2$};
+			\node[state] (q3) at (cq3) {$q_3$};
+			\node[state] (q4) at (cq4) {$q_4$};
+			
+			\path[->]	(q1) edge[sloped, anchor=south] node {$0 \to x,D$} (q2);
+			\path[->]	(q1) edge node {$0 \to D$} (q3);
+			\path[->]	(q1) edge[sloped, anchor=south] node {$0 \to E$} (q4);
+			\path[->]	(q1) edge[loop below] node {$0,1 \to D$} ();
+			\end{tikzpicture}}
+	\end{center}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Essa variante é mais poderosa que a Máquina de Turing original? \pause
+	\begin{block}{Teorema}
+		Toda Máquina de Turing não-determinística tem uma Máquina de Turing determinística equivalente.
+	\end{block}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Podemos imaginar as configurações possíveis da Máquina de Turing em uma árvore. Nossa Máquina de Turing determinística pode simular a Máquina de Turing não-determinística buscando nessa árvore por um estado aceita.
+	\begin{figure}
+		\includegraphics[width=0.6\paperwidth]{resources/nondeterministic}
+	\end{figure}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Busca em largura (BFS) ou busca em profundidade (DFS)?
+	\begin{figure}
+		\includegraphics[width=0.8\paperwidth]{resources/bfs-dfs}
+	\end{figure}\pause
+	Com a busca em profundidade, corremos o risco de não explorar a árvore inteira.
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Para simular a Máquina de Turing não-determinística, vamos utilizar uma Máquina de Turing com três fitas (equivalente à Máquina de Turing original).
+	\begin{figure}
+		\includegraphics[width=0.8\paperwidth]{resources/multitape-nondet}
+	\end{figure}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	\begin{itemize}
+		\item A primeira fita armazena a entrada da máquina e nunca é alterada
+		\item A segunda fita armazena uma cópia da fita da máquina não-determinística em algum ponto da computação
+		\item A terceira fita armazena a posição da máquina na árvore de possibilidades
+	\end{itemize}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Representação dos dados na fita 3:
+	\begin{figure}
+		\includegraphics[width=0.5\paperwidth]{resources/tree}
+	\end{figure}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Agora, estamos prontos para descrever a nossa simulação:
+	\begin{enumerate}
+		\item Inicialmente, a fita 1 contém a entrada $w$ e as fitas 2 e 3 estão vazias
+		\item Copie a fita 1 para a fita 2 e inicialize a string na fita 3 para $\epsilon$ (string vazia)
+	\end{enumerate}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Agora, estamos prontos para descrever a nossa simulação:
+	\begin{enumerate}
+		\setcounter{enumi}{2}
+		\item Use a fita 2 para simular a máquina não-determinística com entrada $w$ em um dos ramos da árvore de possíveis configurações. Antes de cada passo da máquina, consulte a fita 3 para saber qual escolha deve ser tomada dentre as possíveis. Se nenhum símbolo resta em 3, ou se essa escolha é inválida, aborte este ramo indo para o estágio 4. Também vá para o estágio 4 se uma configuração \alert{rejeita} é encontrada. Se uma configuração \alert{aceita} é encontrada, \textbf{aceite} a entrada
+		\item Substitua a string na fita 3 pela próxima string seguindo a ordem. Simule o próximo ramo na árvore de possibilidades indo para o estágio 25
+	\end{enumerate}
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Diversos outros modelos de computação foram propostos, alguns semelhantes e alguns muito diferentes das Máquinas de Turing.
+	
+	Todos eles têm uma semelhança: \textbf{acesso irrestrito a memória ilimitada}
+	
+	Todos os modelos com essa característica são equivalentes.
+\end{frame}
+\begin{frame}{Máquinas de Turing}
+	\framesubtitle{Variantes da Máquina de Turing}
+	Um exemplo: linguagens de programação
+	\begin{itemize}
+		\item \textbf{Brainf*ck}
+		\inputminted{bf}{resources/brainfuck.bf}
+		\item \textbf{C}
+		\inputminted{c}{resources/c.c}
 	\end{itemize}
 \end{frame}
 \end{document}
