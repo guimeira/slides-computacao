@@ -82,15 +82,8 @@
 \headcommand {\beamer@framepages {39}{39}}
 \headcommand {\slideentry {3}{0}{9}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {3}{0}{10}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\sectionentry {4}{Loops}{42}{Loops}{0}}
-\headcommand {\beamer@sectionpages {32}{41}}
-\headcommand {\beamer@subsectionpages {32}{41}}
-\headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@sectionpages {42}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\def \inserttotalframenumber {38}}
+\headcommand {\beamer@partpages {1}{40}}
+\headcommand {\beamer@subsectionpages {32}{40}}
+\headcommand {\beamer@sectionpages {32}{40}}
+\headcommand {\beamer@documentpages {40}}
+\headcommand {\def \inserttotalframenumber {36}}

@@ -1,3 +1,0 @@
-a é maior que 20: 0
-a é menor que 20: 1
-a é igual a 20: 0

@@ -3,4 +3,3 @@
 \beamer@sectionintoc {1}{Operadores relacionais}{2}{0}{1}
 \beamer@sectionintoc {2}{Condicionais}{8}{0}{2}
 \beamer@sectionintoc {3}{Operadores l\IeC {\'o}gicos}{32}{0}{3}
-\beamer@sectionintoc {4}{Loops}{42}{0}{4}
