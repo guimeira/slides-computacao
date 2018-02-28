@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Operadores relacionais}{2}{0}{1}
+\beamer@sectionintoc {2}{Condicionais}{8}{0}{2}
+\beamer@sectionintoc {3}{Operadores l\IeC {\'o}gicos}{32}{0}{3}

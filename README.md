@@ -15,7 +15,9 @@ Você pode utilizar estes slides como quiser, mas, apesar de todo o esforço em 
 ## Sistemas Operacionais
 [1 - Introdução](Sistemas%20Operacionais/Slides/01-Introdução/main.pdf)
 
-[2 - Processos e threads (incompleto)](Sistemas%20Operacionais/Slides/02-Processos%20e%20threads/main.pdf)
+[2 - Processos e threads](Sistemas%20Operacionais/Slides/02-Processos%20e%20threads/main.pdf)
+
+[3 - Comunicação interprocessos](Sistemas%20Operacionais/Slides/03-Comunicação%20interprocessos/main.pdf)
 
 ## Teoria da Computação
-[1 - Introdução e Máquinas de Turing](Slides/01-Introdução%20e%20Máquinas%20de%20Turing/main.pdf)
+[1 - Introdução e Máquinas de Turing](Teoria%20da%20Computação/Slides/01-Introdução%20e%20Máquinas%20de%20Turing/main.pdf)

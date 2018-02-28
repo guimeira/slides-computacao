@@ -288,11 +288,285 @@
 \end{frame}
 \section{Threads}
 \begin{frame}{Threads}
-	\framesubtitle{Modelando multiprogramação}
-	Ou seja, adicionar 8GB de memória aumentou a ocupação da CPU em 30\%. E se adicionássemos mais 8GB? \pause
 	\begin{itemize}
-		\item Podemos ter até 11 processos: $1 - 0.8^{11} \approx 91\%$
-		\item Ganhamos apenas mais 12\% de ocupação da CPU
+		\item Até então, todo o código dentro de um processo executava sequencialmente
+		\item Threads permitem realizar paralelismo dentro de um mesmo processo
+		\item O paralelismo é feito da mesma forma que em processos: alternando qual thread tem a posse da CPU
+		\item Principal diferença: \textbf{espaço de endereçamento}
+		\begin{itemize}
+			\item Cada processo tem seu próprio espaço de endereçamento e não pode acessar a memória dos demais processos
+			\item Todas as threads dentro de um processo compartilham o mesmo espaço de endereçamento e podem acessar os mesmos dados
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Por que usar threads?}
+	\begin{itemize}
+		\item Valem os mesmos argumentos para o uso de processos:
+		\begin{itemize}
+			\item Aumentar a utilização da CPU
+			\item Em máquinas com mais de uma CPU, há um ganho de performance com o paralelismo
+		\end{itemize}
+		\item Além disso, threads são mais fáceis de criar e destruir
+		\begin{itemize}
+			\item Criar uma thread pode ser de 10 a 100 vezes mais rápido que criar um processo
+		\end{itemize}
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.6\paperwidth]{resources/editor}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Por que usar threads?}
+	\begin{itemize}
+		\item Programas interativos em geral utilizam uma thread dedicada a tratar eventos do usuário. Tarefas lentas são feitas em uma thread separada.
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.5\paperwidth]{resources/gui}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Por que usar threads?}
+	\begin{itemize}
+		\item Servidores que precisam atender usuários simultaneamente
+		\begin{itemize}
+			\item Exemplo: servidor web
+			\item Uma thread recebe as requisições e atribui cada uma a uma thread disponível em um \alert{pool} de threads
+		\end{itemize}
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.4\paperwidth]{resources/apache}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Por que usar threads?}
+	\begin{itemize}
+		\item Hoje, ganha popularidade o uso servidores que utilizam uma única thread para evitar o overhead do uso de threads
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.4\paperwidth]{resources/node}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Modelo de uma thread}
+	\begin{itemize}
+		\item Cada thread pode seguir uma linha de execução diferente das demais. Portanto, cada uma precisa ter sua própria pilha (stack)
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.7\paperwidth]{resources/stack}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\begin{itemize}
+		\item Padrão IEEE 1003.1c define a biblioteca de threads \textbf{Pthreads}.
+		\item Para utilizá-lo, basta incluir a \texttt{pthread.h}:
+		\inputminted{c}{resources/includepthreads.c}
+		\item Para criar uma thread:
+		\inputminted{c}{resources/pthreadcreate.c}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\inputminted[highlightlines=1]{c}{resources/pthreadcreate.c}
+	\begin{itemize}
+		\item \texttt{pthread\_t} é uma estrutura que armazena informações sobre a thread. Passamos um ponteiro para ela
+		\item A função retorna um inteiro (zero se tudo correu bem, ou outro valor caso contrário)
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\inputminted[highlightlines=2]{c}{resources/pthreadcreate.c}
+	\begin{itemize}
+		\item \texttt{pthread\_attr\_t} Armazena atributos da thread:
+		\begin{itemize}
+			\item Tamanho da pilha da thread, opções de escalonamento, prioridade, etc...
+			\item Em geral, passamos \texttt{NULL} para utilizar os valores padrão
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\inputminted[highlightlines=3]{c}{resources/pthreadcreate.c}
+	\begin{itemize}
+		\item Ponteiro para função que a thread começará a executar
+		\begin{itemize}
+			\item A função recebe como parâmetro um ponteiro \texttt{void} e também tem um ponteiro \texttt{void} como valor de retorno
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\inputminted[highlightlines=4]{c}{resources/pthreadcreate.c}
+	\begin{itemize}
+		\item O argumento que será passado para a função de entrada da thread
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\only<1>{\inputminted[fontsize=\footnotesize,firstline=1,lastline=12]{c}{resources/pthread.c}}
+	\only<2>{\inputminted[fontsize=\footnotesize,firstline=13]{c}{resources/pthread.c}}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Outras funções das pthreads}
+	\begin{itemize}
+		\item Encerrar uma thread:
+		\inputminted{c}{resources/pthreadexit.c}
+		\begin{itemize}
+			\item Se a função \texttt{main} retorna da forma usual (\texttt{return}) o processo é encerrado mesmo se outras threads estiverem rodando
+			\item Para continuar a execução do processo, podemos encerrar a \texttt{main} com \texttt{pthread\_exit}
+			\item O valor passado como parâmetro é o valor de retorno da thread (veremos como obtê-lo)
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Outras funções das pthreads}
+	\begin{itemize}
+		\item Manipular a estrutura de atributos:
+		\inputminted{c}{resources/pthreadattr.c}
+		\item Liberar a CPU para outras threads:
+		\inputminted{c}{resources/pthreadyield.c}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Outras funções das pthreads}
+	\begin{itemize}
+		\item Esperar uma thread terminar:
+		\inputminted{c}{resources/pthreadjoin.c}
+		\begin{itemize}
+			\item O valor retornado pela thread em \texttt{pthread\_exit} pode ser colocado em \texttt{value\_ptr}
+			\item A função retorna 0 se tudo correu bem ou outro valor caso contrário
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Criando threads}
+	\only<1>{\inputminted[fontsize=\footnotesize,firstline=1,lastline=13]{c}{resources/join.c}}
+	\only<2>{\inputminted[fontsize=\footnotesize,firstline=15,lastline=29]{c}{resources/join.c}}
+	\only<3>{\inputminted[fontsize=\footnotesize,firstline=30,lastline=43]{c}{resources/join.c}}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Implementando threads}
+	Onde é melhor implementar threads? Dentro ou fora do kernel?
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Implementando threads}
+	\begin{itemize}
+		\item Fora do kernel (espaço de usuário):
+		\begin{itemize}
+			\only<1>{
+				\item Implementadas na forma de uma biblioteca dentro do próprio processo
+				\item Não depende de suporte do sistema operacional (o processo é visto como tendo apenas uma thread)
+				\item A biblioteca de threads é responsável por decidir qual thread vai executar, sem utilizar funções do kernel
+			}
+			\only<2> {
+				\item \textbf{Vantagens:}
+				\begin{itemize}
+					\item Mais eficiente (não precisa chamar o kernel)
+					\item Maior customização
+					\item Escalam melhor (não dependem de tabelas internas do kernel)
+				\end{itemize}
+			}
+			\only<3> {
+				\item \textbf{Desvantagens:}
+				\begin{itemize}
+					\item Chamadas bloqueantes (ex: \texttt{read}) bloqueiam todo o processo.
+					
+					Isso pode ser resolvido transformando as chamadas em não bloqueantes (envolve alterar o sistema operacional)
+					
+					Também podemos utilizar uma chamada como a \texttt{select} para verificar se a chamada irá bloquear. Envolve criar um \textbf{wrapper} para todas as chamadas bloqueantes
+					\item Page faults
+					\item A thread precisa voluntariamente ceder a CPU (não temos interrupção de clock)
+				\end{itemize}
+			}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Implementando threads}
+	\begin{itemize}
+		\item Dentro do kernel:
+		\begin{itemize}
+			\only<1>{
+				\item O kernel cuida do processo de criação e destruição de threads
+				\item Quando um processo quer criar uma thread, simplesmente realiza uma chamada de sistema
+				\item Podemos contornar o maior custo da criação de threads com uma \textbf{thread pool}
+			}
+			\only<2> {
+				\item \textbf{Vantagens:}
+				\begin{itemize}
+					\item Não é necessário alterar as chamadas de sistema
+					\item O kernel pode lidar corretamente com os page faults
+				\end{itemize}
+				\item \textbf{Desvantagens:}
+				\begin{itemize}
+					\item Mais custosas de criar e destruir (podemos contornar com thread pools)
+				\end{itemize}
+			}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Implementando threads}
+	\begin{itemize}
+		\item Modelos híbridos:
+		\begin{itemize}
+			\item Tentam combinar as vantagens dos dois modelos e reduzir as desvantagens
+			\item Utilizam threads do kernel, e dentro de cada uma delas podem existir várias threads de usuário
+		\end{itemize}
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.5\paperwidth]{resources/hybrid}
+	\end{figure}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Implementando threads}
+	\begin{itemize}
+		\item Qual modelo é utilizado pelas pthreads?
+		\begin{itemize}
+			\item \textbf{Depende!} pthreads são uma interface, cada sistema operacional pode implementar de uma maneira
+			\item Em Linux, são implementadas com threads de kernel
+		\end{itemize}
+		\item No passado, a máquina virtual Java (JVM) utilizava threads de usuário (green threads), mas hoje são utilizadas threads de kernel
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Programando com múltiplas threads}
+	\begin{itemize}
+		\item O uso de múltiplas threads introduz problemas que não existem quando se usa uma única thread
+		\item \textbf{Problema 1:} variáveis globais
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\inputminted[fontsize=\footnotesize]{c}{resources/globals1.c}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\inputminted[fontsize=\footnotesize]{c}{resources/globals2.c}
+			\end{column}
+		\end{columns}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Programando com múltiplas threads}
+	\begin{itemize}
+		\item \textbf{Problema 2:} reentrância
+		\begin{itemize}
+			\item Quando uma thread é interrompida no meio de uma função e a mesma função é chamada por outra thread
+		\end{itemize}
+		\inputminted[fontsize=\footnotesize]{c}{resources/globals1.c}
+	\end{itemize}
+\end{frame}
+\begin{frame}{Threads}
+	\framesubtitle{Programando com múltiplas threads}
+	\begin{itemize}
+		\item \textbf{Problema 3:} sinais
+		\begin{itemize}
+			\item Qual thread deve tratar determinado sinal?
+		\end{itemize}
+		\item \textbf{Problema 4:} gerência de pilha
+		\begin{itemize}
+			\item Se um processo estoura a pilha, o sistema operacional pode alocar mais espaço
+			\item Se o kernel não tem conhecimento das pilhas de cada thread, ele não pode realocá-las
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 \end{document}
