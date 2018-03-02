@@ -1,0 +1,50 @@
+\newcommand{\TuringInput}{a,b,c,d,0,1,0,0,2}
+\newcommand{\TuringHead}{5}
+\newcommand{\TuringHeadColor}{orange}
+\newcommand{\TuringState} {$q_{1}$}
+\newcommand{\TuringRightEnd} {$\ldots$}
+\newcommand{\TuringLeftEnd} {$\ldots$}
+\newcommand{\TuringMachine}{\begin{tikzpicture}[
+	tape pos/.style={
+		draw=blue!50,
+		fill=blue!20,
+		minimum size=6mm,
+		text height=3mm,
+		node distance=0
+	},
+	tape head/.style={
+		draw=\TuringHeadColor,
+		rounded corners,
+		very thick,
+		fit=(tape \TuringHead),
+		inner sep=1mm
+	},
+	tape start/.style={
+		minimum size=6mm,
+		text height=3mm,
+		node distance=0
+	},
+	tape end/.style={
+		minimum size=6mm,
+		text height=3mm,
+		node distance=0
+	},
+	machine state/.style={
+		draw=\TuringHeadColor,
+		below=of tape head,
+		minimum size=6mm,
+		very thick
+	}
+]
+	\node[tape start] (tape 0) at (0,0) {\TuringLeftEnd};
+	\providecommand\lastP 0
+	\foreach \l [count=\p from 1, remember=\p as \prevP (initially 0)] in \TuringInput {
+		\node[tape pos, right=of tape \prevP] (tape \p) {\l};
+		\global\let\lastP\p
+	};
+	\node[tape end, right=of tape \lastP] {\TuringRightEnd};
+	\node[tape head] (tape head) {};
+	\node[machine state] {\TuringState}
+		edge[->,\TuringHeadColor, very thick] (tape head);
+		
+\end{tikzpicture}}

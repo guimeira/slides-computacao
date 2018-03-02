@@ -21,3 +21,5 @@ Você pode utilizar estes slides como quiser, mas, apesar de todo o esforço em 
 
 ## Teoria da Computação
 [1 - Introdução e Máquinas de Turing](Teoria%20da%20Computação/Slides/01-Introdução%20e%20Máquinas%20de%20Turing/main.pdf)
+
+[2 - Decidibilidade](Teoria%20da%20Computação/Slides/02-Decidibilidade/main.pdf)

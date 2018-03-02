@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  1 MAR 2018 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  2 MAR 2018 02:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2143,205 +2143,62 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ]
 Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             in font `OT1/zavm/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             in font `OT1/zavm/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 4.25003pt on input line 62.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 62.
+(Font)              scaled to size 9.30756pt on input line 50.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 62.
+(Font)              scaled to size 10.95pt on input line 50.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <10> not available
+(Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
+50.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 50.
  [3
 
-]
-LaTeX Font Info:    Try loading font information for TS1+Carlito-LF on input li
-ne 78.
-
-(/usr/share/texlive/texmf-dist/tex/latex/carlito/TS1Carlito-LF.fd
-File: TS1Carlito-LF.fd 2014/08/20 (autoinst) Font definitions for TS1/Carlito-L
-F.
-)
-LaTeX Font Info:    Font shape `TS1/Carlito-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 78.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `Carlito-LF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [4
+] [4
 
 ]
-(./main.toc) [5
+<resources/hilbert.jpg, id=84, 220.825pt x 299.1175pt>
+File: resources/hilbert.jpg Graphic file (type jpg)
 
-] <resources/chico.png, id=101, 1455.036pt x 777.304pt>
-File: resources/chico.png Graphic file (type png)
+<use resources/hilbert.jpg>
+Package pdftex.def Info: resources/hilbert.jpg used on input line 59.
+(pdftex.def)             Requested size: 109.2597pt x 147.99744pt.
+ [5
 
-<use resources/chico.png>
-Package pdftex.def Info: resources/chico.png used on input line 87.
-(pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
- [6
-
- <./resources/chico.png>]
-File: resources/chico.png Graphic file (type png)
-
-<use resources/chico.png>
-Package pdftex.def Info: resources/chico.png used on input line 87.
-(pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
- [7
-
-]
+ <./resources/hilbert.jpg>]
 Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/10.95'.
+(microtype)             in font `OT1/zavm/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/10.95'.
+(microtype)             in font `OT1/zavm/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 9.30756pt on input line 110.
+(Font)              scaled to size 4.25003pt on input line 78.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 110.
-LaTeX Font Info:    Try loading font information for T1+DejaVuSansMono-TLF on i
-nput line 110.
+(Font)              scaled to size 5.0pt on input line 78.
+ [6
 
-(/usr/share/texlive/texmf-dist/tex/latex/dejavu/T1DejaVuSansMono-TLF.fd
-File: T1DejaVuSansMono-TLF.fd 2011/06/01 Font definitions for T1/DejaVuSansMono
--TLF.
-)
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 110.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `DejaVuSansMono-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+] [7
 
-[8
+] [8
 
 ] [9
 
-] [10
+]
+[10
 
 ] [11
 
-] <resources/chico2.png, id=137, 1455.036pt x 777.304pt>
-File: resources/chico2.png Graphic file (type png)
+] [12
 
-<use resources/chico2.png>
-Package pdftex.def Info: resources/chico2.png used on input line 115.
-(pdftex.def)             Requested size: 254.93564pt x 136.18442pt.
- [12
-
- <./resources/chico2.png>]
-(./_minted-main/default-pyg-prefix.pygstyle) (./_minted-main/default.pygstyle)
-(./_minted-main/3A827DB7472A05A6585162A4255492C7EA56DD44AE54323425FCA370BBC4FA4
-1.pygtex
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/bx/n' in size <10.95> not
- available
-(Font)              Font shape `T1/DejaVuSansMono-TLF/b/n' tried instead on inp
-ut line 2.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/b/n' will be
-(Font)              scaled to size 9.30756pt on input line 2.
-) [13
-
-]
-(./_minted-main/06A90AB9BB202CB12872C3C2CC126B3012B86D3A1B8539B3D593BDDA9C88D02
-8.pygtex
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/bx/n' in size <6> not ava
-ilable
-(Font)              Font shape `T1/DejaVuSansMono-TLF/b/n' tried instead on inp
-ut line 2.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/b/n' will be
-(Font)              scaled to size 5.10004pt on input line 2.
-)
-(./_minted-main/064D16EC9E12F7BF4BA851BB80D3DA7A8B96A4F9D5DF649AA7593843FAD7B7F
-0.pygtex) [14
-
-] <resources/bigo.png, id=156, 831.105pt x 530.98375pt>
-File: resources/bigo.png Graphic file (type png)
-
-<use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 141.
-(pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
- [15
-
- <./resources/bigo.png>]
-File: resources/bigo.png Graphic file (type png)
- <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 141.
-(pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
-
-[16
-
-]
-File: resources/bigo.png Graphic file (type png)
- <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 151.
-(pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
- [17
-
-]
-File: resources/bigo.png Graphic file (type png)
- <use resources/bigo.png>
-Package pdftex.def Info: resources/bigo.png used on input line 151.
-(pdftex.def)             Requested size: 218.51942pt x 139.60812pt.
- [18
-
-]
-LaTeX Font Info:    Font shape `T1/Carlito-LF/bx/n' in size <10> not available
-(Font)              Font shape `T1/Carlito-LF/b/n' tried instead on input line 
-162.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
- [19
-
-]
-(./main.toc) [20
-
-] [21
-
-]
-<resources/alanturing.jpg, id=196, 250.9375pt x 313.17pt>
-File: resources/alanturing.jpg Graphic file (type jpg)
-
-<use resources/alanturing.jpg>
-Package pdftex.def Info: resources/alanturing.jpg used on input line 184.
-(pdftex.def)             Requested size: 72.83795pt x 90.90298pt.
-
-<resources/enigma.jpg, id=197, 642.4pt x 361.35pt>
-File: resources/enigma.jpg Graphic file (type jpg)
- <use resources/enigma.jpg>
-Package pdftex.def Info: resources/enigma.jpg used on input line 184.
-(pdftex.def)             Requested size: 145.67592pt x 81.93983pt.
-
-[22
-
- <./resources/alanturing.jpg> <./resources/enigma.jpg>]
-<resources/turingtest.jpg, id=203, 792.9625pt x 421.575pt>
-File: resources/turingtest.jpg Graphic file (type jpg)
-
-<use resources/turingtest.jpg>
-Package pdftex.def Info: resources/turingtest.jpg used on input line 194.
-(pdftex.def)             Requested size: 182.09767pt x 96.81226pt.
- [23
-
- <./resources/turingtest.jpg>] [24
-
-]
-<resources/turing-doodle.jpg, id=214, 632.3625pt x 421.575pt>
-File: resources/turing-doodle.jpg Graphic file (type jpg)
-
-<use resources/turing-doodle.jpg>
-Package pdftex.def Info: resources/turing-doodle.jpg used on input line 213.
-(pdftex.def)             Requested size: 145.67592pt x 97.1146pt.
- [25
-
- <./resources/turing-doodle.jpg>]
-Missing character: There is no ; in font nullfont!
- [26
-
-]
-[27
+] [13
 
 ]
 \spot@box@i=\box93
@@ -2349,25 +2206,130 @@ Missing character: There is no ; in font nullfont!
 \spot@box@iii=\box95
 \spot@box@iv=\box96
 \spot@box@v=\box97
-\spot@box@vi=\box98
-\spot@box@vii=\box99
- [28
+ [14
 
-] <resources/wat.jpg, id=238, 606.265pt x 405.515pt>
-File: resources/wat.jpg Graphic file (type jpg)
+]
+<resources/graph.png, id=141, 354.32375pt x 347.2975pt>
+File: resources/graph.png Graphic file (type png)
 
-<use resources/wat.jpg>
-Package pdftex.def Info: resources/wat.jpg used on input line 299.
-(pdftex.def)             Requested size: 182.09767pt x 121.79774pt.
+<use resources/graph.png>
+Package pdftex.def Info: resources/graph.png used on input line 192.
+(pdftex.def)             Requested size: 72.83795pt x 71.39252pt.
 
-Overfull \vbox (12.66905pt too high) detected at line 299
+Overfull \vbox (9.7194pt too high) detected at line 192
  []
 
-[29
+[15
 
- <./resources/wat.jpg>] [30
+ <./resources/graph.png>] [16
 
-] [31
+] [17
+
+] [18
+
+] [19
+
+]
+<resources/grafo1.pdf, id=180, 372.2347pt x 405.73123pt>
+File: resources/grafo1.pdf Graphic file (type pdf)
+
+<use resources/grafo1.pdf>
+Package pdftex.def Info: resources/grafo1.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [20
+
+ <./resources/grafo1.pdf>]
+<resources/grafo2.pdf, id=188, 372.2347pt x 405.73123pt>
+File: resources/grafo2.pdf Graphic file (type pdf)
+
+<use resources/grafo2.pdf>
+Package pdftex.def Info: resources/grafo2.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [21
+
+ <./resources/grafo2.pdf>]
+<resources/grafo3.pdf, id=196, 372.2347pt x 405.73123pt>
+File: resources/grafo3.pdf Graphic file (type pdf)
+
+<use resources/grafo3.pdf>
+Package pdftex.def Info: resources/grafo3.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [22
+
+ <./resources/grafo3.pdf>]
+<resources/grafo4.pdf, id=204, 372.2347pt x 405.73123pt>
+File: resources/grafo4.pdf Graphic file (type pdf)
+
+<use resources/grafo4.pdf>
+Package pdftex.def Info: resources/grafo4.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [23
+
+ <./resources/grafo4.pdf>]
+<resources/grafo5.pdf, id=212, 372.2347pt x 405.73123pt>
+File: resources/grafo5.pdf Graphic file (type pdf)
+
+<use resources/grafo5.pdf>
+Package pdftex.def Info: resources/grafo5.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [24
+
+ <./resources/grafo5.pdf>]
+<resources/grafo6.pdf, id=220, 372.2347pt x 405.73123pt>
+File: resources/grafo6.pdf Graphic file (type pdf)
+
+<use resources/grafo6.pdf>
+Package pdftex.def Info: resources/grafo6.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [25
+
+ <./resources/grafo6.pdf>]
+<resources/grafo7.pdf, id=229, 372.2347pt x 405.73123pt>
+File: resources/grafo7.pdf Graphic file (type pdf)
+
+<use resources/grafo7.pdf>
+Package pdftex.def Info: resources/grafo7.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [26
+
+ <./resources/grafo7.pdf>]
+<resources/grafo8.pdf, id=237, 372.2347pt x 405.73123pt>
+File: resources/grafo8.pdf Graphic file (type pdf)
+
+<use resources/grafo8.pdf>
+Package pdftex.def Info: resources/grafo8.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [27
+
+ <./resources/grafo8.pdf>]
+<resources/grafo9.pdf, id=245, 372.2347pt x 405.73123pt>
+File: resources/grafo9.pdf Graphic file (type pdf)
+
+<use resources/grafo9.pdf>
+Package pdftex.def Info: resources/grafo9.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [28
+
+ <./resources/grafo9.pdf>]
+<resources/grafo10.pdf, id=253, 372.2347pt x 405.73123pt>
+File: resources/grafo10.pdf Graphic file (type pdf)
+
+<use resources/grafo10.pdf>
+Package pdftex.def Info: resources/grafo10.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [29
+
+ <./resources/grafo10.pdf>]
+<resources/grafo11.pdf, id=261, 372.2347pt x 405.73123pt>
+File: resources/grafo11.pdf Graphic file (type pdf)
+
+<use resources/grafo11.pdf>
+Package pdftex.def Info: resources/grafo11.pdf used on input line 220.
+(pdftex.def)             Requested size: 145.67592pt x 158.78552pt.
+ [30
+
+ <./resources/grafo11.pdf>] (./main.toc)
+[31
 
 ] [32
 
@@ -2380,138 +2342,142 @@ Overfull \vbox (12.66905pt too high) detected at line 299
 ] [36
 
 ]
-Missing character: There is no ; in font nullfont!
+<resources/cantor.jpg, id=301, 200.75pt x 262.9825pt>
+File: resources/cantor.jpg Graphic file (type jpg)
+
+<use resources/cantor.jpg>
+Package pdftex.def Info: resources/cantor.jpg used on input line 257.
+(pdftex.def)             Requested size: 109.2597pt x 143.132pt.
  [37
 
-] [38
+ <./resources/cantor.jpg>] [38
+
+] [39
+
+] [40
 
 ]
-Missing character: There is no ; in font nullfont!
-
-[39
+[41
 
 ]
-Missing character: There is no ; in font nullfont!
- [40
+LaTeX Font Info:    Try loading font information for U+rsfso on input line 292.
 
-]
-Missing character: There is no ; in font nullfont!
- [41
+ (/usr/share/texlive/texmf-dist/tex/latex/rsfso/ursfso.fd
+File: ursfso.fd 2011/02/13 Fontinst v1.933 font definitions for U/rsfso.
+)
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 10.95pt on input line 292.
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 8.0pt on input line 292.
+LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
+(Font)              scaled to size 6.0pt on input line 292.
+LaTeX Font Info:    Try loading font information for T1+Carlito-TLF on input li
+ne 292.
 
-]
-Missing character: There is no ; in font nullfont!
+(/usr/share/texlive/texmf-dist/tex/latex/carlito/T1Carlito-TLF.fd
+File: T1Carlito-TLF.fd 2014/08/20 (autoinst) Font definitions for T1/Carlito-TL
+F.
+)
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 292.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `Carlito-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/bx/n' in size <10.95> not availa
+ble
+(Font)              Font shape `T1/Carlito-TLF/b/n' tried instead on input line
+ 292.
+LaTeX Font Info:    Font shape `T1/Carlito-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 292.
  [42
 
 ]
-Missing character: There is no ; in font nullfont!
- [43
+[43
 
-]
-Missing character: There is no ; in font nullfont!
- [44
+] [44
 
-]
-Missing character: There is no ; in font nullfont!
- [45
+] [45
 
-]
-Missing character: There is no ; in font nullfont!
+] <resources/cantor1.pdf, id=354, 514.62392pt x 616.61586pt>
+File: resources/cantor1.pdf Graphic file (type pdf)
+
+<use resources/cantor1.pdf>
+Package pdftex.def Info: resources/cantor1.pdf used on input line 313.
+(pdftex.def)             Requested size: 145.67592pt x 174.54242pt.
  [46
 
-]
-Missing character: There is no ; in font nullfont!
+ <./resources/cantor1.pdf>]
+<resources/cantor2.pdf, id=368, 514.62392pt x 616.61586pt>
+File: resources/cantor2.pdf Graphic file (type pdf)
+
+<use resources/cantor2.pdf>
+Package pdftex.def Info: resources/cantor2.pdf used on input line 313.
+(pdftex.def)             Requested size: 145.67592pt x 174.54242pt.
  [47
 
-]
-Missing character: There is no ; in font nullfont!
- [48
+ <./resources/cantor2.pdf>] [48
+
+] [49
+
+] [50
 
 ]
-Missing character: There is no ; in font nullfont!
- [49
+[51
 
-]
-Missing character: There is no ; in font nullfont!
- [50
+] [52
 
-]
-Missing character: There is no ; in font nullfont!
- [51
+] [53
 
-]
-Missing character: There is no ; in font nullfont!
- [52
+] [54
 
-]
-Missing character: There is no ; in font nullfont!
- [53
+] [55
 
-]
-Missing character: There is no ; in font nullfont!
+] [56
 
-[54
+] [57
 
-]
-Missing character: There is no ; in font nullfont!
- [55
-
-]
-Missing character: There is no ; in font nullfont!
- [56
-
-]
-Missing character: There is no ; in font nullfont!
- [57
-
-]
-Missing character: There is no ; in font nullfont!
- [58
+] [58
 
 ] [59
 
-]
-<resources/wat2.jpg, id=415, 1661.20625pt x 1083.04625pt>
-File: resources/wat2.jpg Graphic file (type jpg)
+] [60
 
-<use resources/wat2.jpg>
-Package pdftex.def Info: resources/wat2.jpg used on input line 390.
-(pdftex.def)             Requested size: 291.35739pt x 189.94908pt.
- [60
+] [61
 
- <./resources/wat2.jpg>]
-File: resources/wat2.jpg Graphic file (type jpg)
- <use resources/wat2.jpg>
-Package pdftex.def Info: resources/wat2.jpg used on input line 390.
-(pdftex.def)             Requested size: 291.35739pt x 189.94908pt.
+] [62
 
-[61
+] [63
 
-]
-Missing character: There is no ; in font nullfont!
- [62
-
-]
-Missing character: There is no ; in font nullfont!
- [63
-
-]
-Missing character: There is no ; in font nullfont!
- [64
+] [64
 
 ] [65
 
-] [66
+]
+<resources/halt.pdf, id=477, 1375.67393pt x 472.86115pt>
+File: resources/halt.pdf Graphic file (type pdf)
+
+<use resources/halt.pdf>
+Package pdftex.def Info: resources/halt.pdf used on input line 504.
+(pdftex.def)             Requested size: 291.35739pt x 100.14795pt.
+ [66
+
+ <./resources/halt.pdf>]
+File: resources/halt.pdf Graphic file (type pdf)
+ <use resources/halt.pdf>
+Package pdftex.def Info: resources/halt.pdf used on input line 504.
+(pdftex.def)             Requested size: 291.35739pt x 100.14795pt.
+
+[67
 
 ]
-Missing character: There is no ; in font nullfont!
- [67
+File: resources/halt.pdf Graphic file (type pdf)
+ <use resources/halt.pdf>
+Package pdftex.def Info: resources/halt.pdf used on input line 504.
+(pdftex.def)             Requested size: 291.35739pt x 100.14795pt.
+ [68
 
-] [68
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [69
+] [69
 
 ] [70
 
@@ -2525,641 +2491,10 @@ Missing character: There is no ; in font nullfont!
 
 ] [75
 
-]
-[76
-
-] [77
-
-] [78
-
-] [79
-
-] [80
-
-] [81
-
-] [82
-
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] [88
-
-] [89
-
-] [90
-
-]
-[91
-
-] [92
-
-] [93
-
-] [94
-
-] [95
-
-] [96
-
-] [97
-
-] [98
-
-] [99
-
-] [100
-
-]
-Overfull \vbox (7.90315pt too high) detected at line 640
- []
-
-[101
-
-]
-Overfull \vbox (7.90315pt too high) detected at line 640
- []
-
-[102
-
-]
-Overfull \vbox (7.90315pt too high) detected at line 640
- []
-
-[103
-
-] [104
-
-] [105
-
-] [106
-
-] [107
-
-] [108
-
-] [109
-
-] [110
-
-] [111
-
-] [112
-
-] [113
-
-]
-Missing character: There is no ; in font nullfont!
- [114
-
-]
-Missing character: There is no ; in font nullfont!
-
-[115
-
-]
-Missing character: There is no ; in font nullfont!
- [116
-
-]
-Missing character: There is no ; in font nullfont!
- [117
-
-]
-Missing character: There is no ; in font nullfont!
- [118
-
-]
-Missing character: There is no ; in font nullfont!
- [119
-
-]
-Missing character: There is no ; in font nullfont!
- [120
-
-]
-Missing character: There is no ; in font nullfont!
- [121
-
-]
-Missing character: There is no ; in font nullfont!
- [122
-
-]
-Missing character: There is no ; in font nullfont!
- [123
-
-]
-Missing character: There is no ; in font nullfont!
- [124
-
-]
-Missing character: There is no ; in font nullfont!
- [125
-
-]
-Missing character: There is no ; in font nullfont!
- [126
-
-]
-Missing character: There is no ; in font nullfont!
-
-[127
-
-]
-Missing character: There is no ; in font nullfont!
- [128
-
-]
-Missing character: There is no ; in font nullfont!
- [129
-
-]
-Missing character: There is no ; in font nullfont!
- [130
-
-]
-Missing character: There is no ; in font nullfont!
- [131
-
-]
-Missing character: There is no ; in font nullfont!
- [132
-
-]
-Missing character: There is no ; in font nullfont!
- [133
-
-]
-Missing character: There is no ; in font nullfont!
- [134
-
-] [135
-
-] [136
-
-] [137
-
-] [138
-
-]
-[139
-
-] [140
-
-] [141
-
-] [142
-
-]
-Overfull \hbox (15.71953pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[143
-
-]
-Overfull \hbox (22.32643pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[144
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[145
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[146
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[147
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[148
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[149
-
-]
-Overfull \hbox (33.19444pt too wide) in paragraph at lines 750--750
- [] 
- []
-
-[150
-
-] [151
-
-] [152
-
-] [153
-
-] [154
-
-] [155
-
-] [156
-
-] [157
-
-] [158
-
-] [159
-
-] [160
-
-] [161
-
-]
-[162
-
-]
-Missing character: There is no ; in font nullfont!
- [163
-
-]
-Missing character: There is no ; in font nullfont!
- [164
-
-]
-Missing character: There is no ; in font nullfont!
- [165
-
-]
-Missing character: There is no ; in font nullfont!
- [166
-
-]
-Missing character: There is no ; in font nullfont!
- [167
-
-]
-Missing character: There is no ; in font nullfont!
- [168
-
-]
-Missing character: There is no ; in font nullfont!
- [169
-
-]
-Missing character: There is no ; in font nullfont!
- [170
-
-]
-Missing character: There is no ; in font nullfont!
- [171
-
-]
-Missing character: There is no ; in font nullfont!
- [172
-
-]
-Missing character: There is no ; in font nullfont!
- [173
-
-]
-Missing character: There is no ; in font nullfont!
-
-[174
-
-]
-Missing character: There is no ; in font nullfont!
- [175
-
-]
-Missing character: There is no ; in font nullfont!
- [176
-
-]
-Missing character: There is no ; in font nullfont!
- [177
-
-]
-Missing character: There is no ; in font nullfont!
- [178
-
-]
-Missing character: There is no ; in font nullfont!
- [179
-
-]
-Missing character: There is no ; in font nullfont!
- [180
-
-]
-Missing character: There is no ; in font nullfont!
- [181
-
-]
-Missing character: There is no ; in font nullfont!
- [182
-
-]
-Missing character: There is no ; in font nullfont!
- [183
-
-]
-Missing character: There is no ; in font nullfont!
- [184
-
-]
-Missing character: There is no ; in font nullfont!
- [185
-
-]
-Missing character: There is no ; in font nullfont!
-
-[186
-
-]
-Missing character: There is no ; in font nullfont!
- [187
-
-]
-Missing character: There is no ; in font nullfont!
- [188
-
-]
-Missing character: There is no ; in font nullfont!
- [189
-
-]
-Missing character: There is no ; in font nullfont!
- [190
-
-]
-Missing character: There is no ; in font nullfont!
- [191
-
-]
-Missing character: There is no ; in font nullfont!
- [192
-
-]
-Missing character: There is no ; in font nullfont!
- [193
-
-]
-Missing character: There is no ; in font nullfont!
- [194
-
-]
-Missing character: There is no ; in font nullfont!
- [195
-
-]
-Missing character: There is no ; in font nullfont!
- [196
-
-]
-Missing character: There is no ; in font nullfont!
- [197
-
-]
-Missing character: There is no ; in font nullfont!
-
-[198
-
-]
-Missing character: There is no ; in font nullfont!
- [199
-
-]
-Missing character: There is no ; in font nullfont!
- [200
-
-]
-Missing character: There is no ; in font nullfont!
- [201
-
-]
-Missing character: There is no ; in font nullfont!
- [202
-
-]
-Missing character: There is no ; in font nullfont!
- [203
-
-]
-Missing character: There is no ; in font nullfont!
- [204
-
-]
-Missing character: There is no ; in font nullfont!
- [205
-
-]
-Missing character: There is no ; in font nullfont!
- [206
-
-]
-Missing character: There is no ; in font nullfont!
- [207
-
-]
-Missing character: There is no ; in font nullfont!
- [208
-
-]
-Missing character: There is no ; in font nullfont!
- [209
-
-]
-Missing character: There is no ; in font nullfont!
-
-[210
-
-]
-Missing character: There is no ; in font nullfont!
- [211
-
-]
-Missing character: There is no ; in font nullfont!
- [212
-
-]
-Missing character: There is no ; in font nullfont!
- [213
-
-]
-Missing character: There is no ; in font nullfont!
- [214
-
-]
-Overfull \hbox (9.26645pt too wide) detected at line 885
-\T1/Carlito-LF/m/it/10.95 E \OT1/zavm/m/n/10.95 = \OMS/zavm/m/n/10.95 f\OT1/zav
-m/m/n/10.95 #\T1/Carlito-LF/m/it/10.95 x[]\OT1/zavm/m/n/10.95 #\T1/Carlito-LF/m
-/it/10.95 x[]\OT1/zavm/m/n/10.95 # [] #\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/
-m/n/10.95 j []\T1/Carlito-LF/m/it/10.95 x[]  \OMS/zavm/m/n/10.95 2  f\T1/Carlit
-o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
-10.95 g[][]\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.
-95 = \T1/Carlito-LF/m/it/10.95 x[][]i \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.95 
-= \T1/Carlito-LF/m/it/10.95 j\OMS/zavm/m/n/10.95 g
- []
-
-[215
-
-]
-Overfull \hbox (9.26645pt too wide) detected at line 885
-\T1/Carlito-LF/m/it/10.95 E \OT1/zavm/m/n/10.95 = \OMS/zavm/m/n/10.95 f\OT1/zav
-m/m/n/10.95 #\T1/Carlito-LF/m/it/10.95 x[]\OT1/zavm/m/n/10.95 #\T1/Carlito-LF/m
-/it/10.95 x[]\OT1/zavm/m/n/10.95 # [] #\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/
-m/n/10.95 j []\T1/Carlito-LF/m/it/10.95 x[]  \OMS/zavm/m/n/10.95 2  f\T1/Carlit
-o-LF/m/n/10.95 0\OML/zavm/m/it/10.95 ; \T1/Carlito-LF/m/n/10.95 1\OMS/zavm/m/n/
-10.95 g[][]\T1/Carlito-LF/m/it/10.95 x[] \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.
-95 = \T1/Carlito-LF/m/it/10.95 x[][]i \OMS/zavm/m/n/10.95 6\OT1/zavm/m/n/10.95 
-= \T1/Carlito-LF/m/it/10.95 j\OMS/zavm/m/n/10.95 g
- []
-
-[216
-
-] [217
-
-] [218
-
-] [219
-
-] [220
-
-] [221
-
-] [222
-
-] [223
-
-] [224
-
-]
-<resources/multitape.png, id=1277, 996.72375pt x 442.65375pt>
-File: resources/multitape.png Graphic file (type png)
-
-<use resources/multitape.png>
-Package pdftex.def Info: resources/multitape.png used on input line 958.
-(pdftex.def)             Requested size: 327.77359pt x 145.56285pt.
-
-Overfull \hbox (27.59685pt too wide) in paragraph at lines 958--958
- [] 
- []
-
-[225
-
- <./resources/multitape.png>]
-Overfull \vbox (3.15312pt too high) detected at line 970
- []
-
-[226
-
-]
-LaTeX Font Info:    Try loading font information for U+rsfso on input line 984.
-
- (/usr/share/texlive/texmf-dist/tex/latex/rsfso/ursfso.fd
-File: ursfso.fd 2011/02/13 Fontinst v1.933 font definitions for U/rsfso.
-)
-LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
-(Font)              scaled to size 10.95pt on input line 984.
-LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
-(Font)              scaled to size 8.0pt on input line 984.
-LaTeX Font Info:    Font shape `U/rsfso/m/n' will be
-(Font)              scaled to size 6.0pt on input line 984.
- [227
-
-] [228
-
-]
-[229
-
-] [230
-
-] [231
-
-]
-<resources/nondeterministic.png, id=1317, 357.58594pt x 211.54031pt>
-File: resources/nondeterministic.png Graphic file (type png)
-
-<use resources/nondeterministic.png>
-Package pdftex.def Info: resources/nondeterministic.png used on input line 1019
-.
-(pdftex.def)             Requested size: 218.51942pt x 129.27179pt.
- [232
-
- <./resources/nondeterministic.png>]
-<resources/bfs-dfs.png, id=1324, 2226.3175pt x 927.465pt>
-File: resources/bfs-dfs.png Graphic file (type png)
-
-<use resources/bfs-dfs.png>
-Package pdftex.def Info: resources/bfs-dfs.png used on input line 1027.
-(pdftex.def)             Requested size: 291.35739pt x 121.36719pt.
- [233
-
- <./resources/bfs-dfs.png>]
-File: resources/bfs-dfs.png Graphic file (type png)
-
-<use resources/bfs-dfs.png>
-Package pdftex.def Info: resources/bfs-dfs.png used on input line 1027.
-(pdftex.def)             Requested size: 291.35739pt x 121.36719pt.
- [234
-
-]
-<resources/multitape-nondet.png, id=1336, 1032.85875pt x 319.1925pt>
-File: resources/multitape-nondet.png Graphic file (type png)
-
-<use resources/multitape-nondet.png>
-Package pdftex.def Info: resources/multitape-nondet.png used on input line 1034
-.
-(pdftex.def)             Requested size: 291.35739pt x 90.04054pt.
- [235
-
- <./resources/multitape-nondet.png>]
-[236
-
-] <resources/tree.png, id=1348, 637.582pt x 404.712pt>
-File: resources/tree.png Graphic file (type png)
-
-<use resources/tree.png>
-Package pdftex.def Info: resources/tree.png used on input line 1049.
-(pdftex.def)             Requested size: 182.09767pt x 115.58496pt.
- [237
-
- <./resources/tree.png>] [238
-
-] [239
-
-] [240
+] [76
 
 ]
-(./_minted-main/5FCB376F24A71F12F333B07B4000651FD4369FB2EF5ABB5A1F7E30B6E16C5CE
-7.pygtex)
-(./_minted-main/F87069560B0BF0957E1331530888322BCC4F3E1F3852C84A2BB26A6C1B06057
-2.pygtex
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/it' will be
-(Font)              scaled to size 9.30756pt on input line 2.
-) [241
+[77
 
 ]
 \tf@nav=\write9
@@ -3171,47 +2506,41 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/it' will be
 \tf@snm=\write11
 \openout11 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1085.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1085.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1085.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1085.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 33996679D4FA7EDDFC2F9908C9183A5C;186.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1085.
+(rerunfilecheck)             Checksum: 68927E3492FA7F62A9742A619A603FBB;96.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
  ) 
 Here is how much of TeX's memory you used:
- 36470 strings out of 494910
- 695077 string characters out of 6179836
- 853945 words of memory out of 5000000
- 38238 multiletter control sequences out of 15000+600000
- 222813 words of font info for 205 fonts, out of 8000000 for 9000
+ 34762 strings out of 494910
+ 665761 string characters out of 6179836
+ 817663 words of memory out of 5000000
+ 36908 multiletter control sequences out of 15000+600000
+ 230914 words of font info for 187 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 70i,15n,100p,957b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/dejavu/dejavumono_t1-type1.enc
-}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/share/te
-xlive/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/share/texlive/texmf-dis
-t/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/carlito/crlt_llspvt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/are
-v/arevoml.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_csjzg
-d.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Italic.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono-Bold.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono-Oblique.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (241 pages, 2947789 bytes).
+ 70i,11n,100p,957b,727s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/carlito/crlt_z7vml3.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/arev/arevoml.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ar
+ev/arevoms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_csjz
+gd.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito-Italic.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (77 pages, 253797 bytes).
 PDF statistics:
- 1541 PDF objects out of 1728 (max. 8388607)
- 1214 compressed objects within 13 object streams
- 486 named destinations out of 1000 (max. 500000)
- 41285 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 633 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 38714 words of extra memory for PDF output out of 42996 (max. 10000000)
 

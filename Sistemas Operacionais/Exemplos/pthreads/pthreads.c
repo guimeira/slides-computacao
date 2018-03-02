@@ -24,5 +24,5 @@ int main(int argc, char *argv[]) {
 			exit(-1);
 		}
 	}
-	return 0;
+	pthread_exit(0);
 } 
